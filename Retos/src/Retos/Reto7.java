@@ -20,8 +20,7 @@ public class Reto7 {
         // Creamos un ciclo while que se ejecute siempre y cuando el usuario quiera volver a jugar y el dinero acumulado sea mayor a 0.0
         while (respuesta == 1 && dAcumulado>0.0) {
             // Indicamos con cuanto dinero cuenta cada vez que pierda o gane dinero
-            System.out.println("Usted actualmente cuenta con: "+ dAcumulado);
-            // Solicitamos la cantidad de dinero que va a apostar
+            System.out.println("Usted actualmente cuenta con: "+ dAcumulado);  
             System.out.println("Ingrese el valor de la cantidad de dinero que va apostar según el valor que usted tiene acumulado ");
             // Capturamos la cantidad de dinero que aposto el usuario
             dApostado = entrada.nextInt();
